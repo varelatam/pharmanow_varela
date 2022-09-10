@@ -40,6 +40,10 @@ header form input {
     margin-top: 10px;
     
 }
+
+header input:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
 header form .fa-solid{
     position: relative;
     right: 25px;
@@ -51,6 +55,10 @@ header ::placeholder {
 
 .datos a {
  display: none;
+}
+
+.datos li :hover {
+    text-decoration: underline;
 }
 .fa-user{
     display:none;
@@ -75,6 +83,8 @@ header ::placeholder {
 .secciones li{
     display: none;
 }
+
+
 
 /*main index*/
 
@@ -102,8 +112,12 @@ header ::placeholder {
     font-weight: bold;
     color: #538d22;
     text-align: center;
-
     
+    
+}
+
+.lista:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
 }
 
 
@@ -122,6 +136,10 @@ header ::placeholder {
 
 }
 
+.productos1:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+
 .productos2 {
     border: 2px solid #00b4d8;
     padding:  47px 0 47px;
@@ -134,6 +152,10 @@ header ::placeholder {
     font-weight: bold;
     color: white;
     text-align: center;
+}
+
+.productos2:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
 }
 
 .productos3 {
@@ -150,6 +172,10 @@ header ::placeholder {
     text-align: center;
 }
 
+.productos3:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+
 .productos4 {
     border: 2px solid #c38e70;
     padding:  47px 0 47px;
@@ -164,12 +190,20 @@ header ::placeholder {
     text-align: center;
 }
 
+.productos4:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+
 .imagen1 {
     border-radius: 18px;
     margin-top: 33px;
     margin-left: 36px;
     margin-bottom: 33px;
     width: 85vw ;
+}
+
+.imagen1:hover {
+    box-shadow: 0px 0px 10px rgb(25, 159, 101)
 }
 
 .imagen2{
@@ -181,12 +215,20 @@ header ::placeholder {
     
 }
 
+.imagen2:hover {
+    box-shadow: 0px 0px 10px rgb(25, 159, 101)
+}
+
 .imagen3 {
     border-radius: 18px;
     margin-top: 33px;
     margin-left: 36px;
     margin-bottom: 33px;
     width: 85vw ;
+}
+
+.imagen3:hover {
+    box-shadow: 0px 0px 10px rgb(25, 159, 101)
 }
 
 #index section h2 {
@@ -212,7 +254,12 @@ header ::placeholder {
     background-color: white;
     margin: 10px;
     width: 90vw;
+    transition: ease-in-out 0.1s;
     
+}
+
+.oportunidades .articulo:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
 }
 
 #index article button {
@@ -223,7 +270,15 @@ header ::placeholder {
     background-color: #538d22;
     color: white;
     font-weight: bold;
+    
 }
+
+#index article button:hover {
+    text-decoration: underline;
+    transform: translate(-1px,-2px);
+    transition: ease-in-out 0.1s;
+}
+
 #index span {
     text-decoration: line-through;
     color: red;
@@ -270,6 +325,9 @@ header ::placeholder {
     padding: 60px 0 40px 18px;
     font-size: large;
     margin-top: 5px;
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 
 }
@@ -327,6 +385,10 @@ header ::placeholder {
     
 }
 
+.register input:hover {
+    box-shadow: 0px 0px 10px rgb(6, 185, 158)
+}
+
 .register button {
 
     margin: 40px 0 0;
@@ -339,6 +401,12 @@ header ::placeholder {
     display: block;
 
 }
+
+.register button:hover {
+    transform: translate(-1px,-2px);
+    transition: ease-in-out 0.1s;
+}
+
 .register img {
 
     width:100%;
@@ -395,6 +463,10 @@ header ::placeholder {
     margin-top: 15px;
 }
 
+.login input:hover {
+    box-shadow: 0px 0px 10px rgb(6, 185, 158)
+}
+
 .login button {
 
     margin: 40px 0;
@@ -403,9 +475,13 @@ header ::placeholder {
     border: 1px solid #a5a5a5;
     background-color: #538d22;
     color: white;
-    font-weight: bold;
+    font-weight: bold;    
+}
+
+.login button:hover{
     
-    
+    transform: translate(-1px,-2px);
+    transition: ease-in-out 0.1s;
 }
 
 .login nav {
@@ -418,16 +494,21 @@ border-radius: 5px;
 
 }
 
-.login span {
-
+login nav span:hover {
     text-decoration: underline;
-
 }
 
 .login nav img {
     width: 3vw;
     margin-top: 5px;
+    
 }
+
+.login nav ul:hover {
+    text-decoration: underline;
+}
+
+
 
 
 
@@ -466,7 +547,6 @@ border-radius: 5px;
    
     text-align: center;
     display: block;
-    
 
 }
 
@@ -483,6 +563,10 @@ border-radius: 5px;
     margin-top: 15px;
 }
 
+.contacto input:hover{
+    box-shadow: 0px 0px 10px rgb(6, 185, 158)
+}
+
 .contacto button {
     margin: 40px 0;
     padding: 10px 60px;
@@ -492,6 +576,10 @@ border-radius: 5px;
     color: white;
     font-weight: bold;
     
+}
+.contacto button:hover {
+    transform: translate(-1px,-2px);
+    transition: ease-in-out 0.1s;
 }
 
 
@@ -576,6 +664,10 @@ footer h5 {
     text-align: left;
 }
 
+footer nav h5:hover{
+    text-decoration: underline;
+}
+
 
 .sociales {
     display: flex;
@@ -635,7 +727,10 @@ footer h5 {
         right: 5%;
         top: 40px;
         display: flex;
+        height: 15px;
     }
+
+    
    
     header .fa-solid {
         margin-right: 5px;
@@ -679,7 +774,11 @@ footer h5 {
         font-size: 14px;
         font-weight:bold;
     }
-    
+
+    .secciones li:hover{
+        color: #538d22;
+        text-decoration-line: overline;
+    }
     header fa-solid fa-bars {
         display: none;
     }
@@ -1004,7 +1103,8 @@ footer h5 {
         padding: 6px 20%;
         margin-top: 15px;
     }
-    
+
+   
     .login button {
     
         margin: 40px 0;
@@ -1018,6 +1118,8 @@ footer h5 {
         position: relative;
         left: 38%;
     }
+
+   
     
     .login nav {
     
@@ -1027,10 +1129,8 @@ footer h5 {
     
     }
     
-    .login span {
-    
+    .login nav span:hover {
         text-decoration: underline;
-    
     }
     
     
@@ -1156,6 +1256,10 @@ footer h5 {
         border-radius: 4px;
         padding: 10px 120px 10px 30px;
         
+    }
+
+    footer form input:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100)
     }
     
     footer h5 {
