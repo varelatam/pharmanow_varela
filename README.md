@@ -1,1 +1,0 @@
-# pharmanow_varela
