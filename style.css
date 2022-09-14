@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +6,26 @@
     list-style: none;
     text-decoration: none;
     
+    
 }
-a {
+#main1 a {
     color: unset;
+    
 }
 
+a {
+    text-decoration: unset;
+
+}
+ #main1 footer ul {
+    padding-left: 0;
+ }
+#main1 footer li{
+
+}
+ #main1 h2{
+    font-size: 20px;
+ }
 
 
 /*header*/
@@ -24,75 +39,88 @@ header picture{
     display: flex;
     justify-content: center;
     width: 100vw;
-    margin-top: 5px;
+    position: relative;
+    
+    
 }
 header picture a img{
-    width: 35vw;
+    width: 40vw;
 }
+
 header form{
     display: flex;
     justify-content: center;
     width: 100vw;
 }
+
 header form input {
     border-radius: 4px;
-    padding: 10px 120px 10px 30px;
-    margin-top: 10px;
+    padding: 10px 120px 10px 30px; 
     
 }
 
 header input:hover {
     box-shadow: 0px 0px 10px rgb(100, 100, 100)
 }
-header form .fa-solid{
+
+header .hamburguesa button{
+    display: flex;
     position: relative;
-    right: 25px;
-    top: 25px;
+    width: 9vw;
+    top: 20px;
+    z-index: 1;
 }
+
+
+
 header ::placeholder {
     font-style: italic;
 }
 
-.datos a {
+.datos1 {
  display: none;
+}
+
+.datos2 span {
+    display: none;
 }
 
 .datos li :hover {
     text-decoration: underline;
 }
+
 .fa-user{
     display:none;
 }
-.fa-bag-shopping{
+
+.datos2 {
     display: flex;
     position: relative;
-    left: 90vw;
-    bottom: 85px;
+    left: 85vw;
+    bottom: 27.5vw;
+    font-size: 21px;
 
 }
- 
-.fa-bars {
-    
+
+.fa-magnifying-glass {
     position: relative;
-    bottom: 100px;
-    left: 10vw;
-    
-   
+    right: 30px;
+    top: 14px;
 }
 
 .secciones li{
     display: none;
 }
 
+ul .cuenta {
 
+    color: #538d22;
+
+}
 
 /*main index*/
 
 
-
-.carrusel {
-    width: 99.8vw;
-}
 
 #index ul{
     display: block
@@ -104,7 +132,7 @@ header ::placeholder {
     border: 2px solid #538d22;
     padding: 23px;
     margin-top: 33px;
-    margin-left: 36px;
+    margin-left: 5px;
     margin-bottom: 33px;
     background-color: #f4f3ee;
     border-radius: 8px;
@@ -125,7 +153,7 @@ header ::placeholder {
     border: 2px solid #ff758f;
     padding:  47px 0 47px;
     margin-top: 33px;
-    margin-left: 36px;
+    margin-left: 5px;
     margin-bottom: 33px;
     background-color: #ff758f;
     border-radius: 8px;
@@ -144,7 +172,7 @@ header ::placeholder {
     border: 2px solid #00b4d8;
     padding:  47px 0 47px;
     margin-top: 33px;
-    margin-left: 36px;
+    margin-left: 5px;
     margin-bottom: 33px;
     background-color: #00b4d8;
     border-radius: 8px;
@@ -162,7 +190,7 @@ header ::placeholder {
     border: 2px solid #858ae3;
     padding:  47px 0 47px;
     margin-top: 33px;
-    margin-left: 36px;
+    margin-left: 5px;
     margin-bottom: 33px;
     background-color: #858ae3;
     border-radius: 8px;
@@ -180,7 +208,7 @@ header ::placeholder {
     border: 2px solid #c38e70;
     padding:  47px 0 47px;
     margin-top: 33px;
-    margin-left: 36px;
+    margin-left: 5px;
     margin-bottom: 33px;
     background-color: #c38e70;
     border-radius: 8px;
@@ -241,7 +269,7 @@ header ::placeholder {
     border: 2px solid #eae6e5;
     background-color: #eae6e5;
     border-radius: 8px;
-    padding: 16px ;
+    padding: 10px;
     text-align: center;
     
 
@@ -253,11 +281,14 @@ header ::placeholder {
     border-radius: 5px;
     background-color: white;
     margin: 10px;
-    width: 90vw;
+    width: 80vw;
     transition: ease-in-out 0.1s;
     
 }
-
+.articulo h4{
+    font-size: 16px;
+    font-weight: bold;
+}
 .oportunidades .articulo:hover {
     box-shadow: 0px 0px 10px rgb(100, 100, 100)
 }
@@ -461,6 +492,8 @@ header ::placeholder {
 
     padding: 6px 20%;
     margin-top: 15px;
+    position: relative;
+    right: 15px;
 }
 
 .login input:hover {
@@ -494,12 +527,22 @@ border-radius: 5px;
 
 }
 
-login nav span:hover {
+.login nav span {
+    position: relative;
+    right: 5px;
+}
+
+.login nav a {
+    position: relative;
+    right: 15px;
+}
+
+.login nav span:hover {
     text-decoration: underline;
 }
 
 .login nav img {
-    width: 3vw;
+    width: 5vw;
     margin-top: 5px;
     
 }
@@ -588,8 +631,28 @@ login nav span:hover {
     padding-bottom: 200px;
 }
 
+.datos .fa-bag-shopping {
+    display: contents;
+}
 
+/*main bolsa*/
 
+.shop {
+    border-top:solid #538d22 1px ;
+}
+
+.shop button {
+    background-color: #538d22 ;
+    color: white;
+
+}
+
+.shop button:hover{
+    transform: translate(-1px,-2px);
+    transition: ease-in-out 0.1s;
+    text-decoration: underline;
+    color: white;
+}
 
 /*footer*/
 
@@ -637,13 +700,16 @@ footer form .fa-solid{
     left: 20px;
 }
 .si li{
+    font-size: 14px;
     margin-top: 8px;
-    text-align:justify;
+    position: relative;         
+    right: 23px;
 }
 
 .si h4{
     margin-top: 8px;
     text-align: justify;
+    font-weight: bold;
 
 }
 footer h2 {
@@ -662,6 +728,18 @@ footer h5 {
     margin-top: 8px;
     color: #538d22;
     text-align: left;
+    font-weight: bold;
+}
+
+footer h4 {
+    font-size: 14px;
+    
+}
+
+footer h5 {
+    color: #538d22;
+    font-size: 14px;
+    
 }
 
 footer nav h5:hover{
@@ -729,6 +807,7 @@ footer nav h5:hover{
         display: flex;
         height: 15px;
     }
+    
 
     
    
@@ -747,11 +826,7 @@ footer nav h5:hover{
     .datos a{
         display: flex;
     }
-    #bag{
-        position: relative;
-        left: 0;
-        bottom: 0;
-    }
+   
     .datos li{
         display: flex;
         margin-right: 10px;
@@ -768,21 +843,47 @@ footer nav h5:hover{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-bottom: 0;
     }
+  
     .secciones li {
         display: contents;
         font-size: 14px;
         font-weight:bold;
+
     }
 
-    .secciones li:hover{
+    .secciones li:hover {
         color: #538d22;
         text-decoration-line: overline;
+        
+
     }
-    header fa-solid fa-bars {
+
+    header .hamburguesa {
         display: none;
     }
     
+    .datos2{
+            position: relative;
+            left: 0;
+            bottom: 0;
+            
+    }
+
+    .fa-user {
+        position: relative;
+        font-size: 21px;
+    }
+
+    .datos2 span {
+        display: contents;
+        font-weight:lighter;
+        font-size: 15px;
+        color: #495057;
+        display: flex;
+        
+    }
     
     /*main index*/
     
@@ -1102,6 +1203,8 @@ footer nav h5:hover{
     
         padding: 6px 20%;
         margin-top: 15px;
+        position: relative;
+        left: 5px;
     }
 
    
@@ -1116,7 +1219,7 @@ footer nav h5:hover{
         font-weight: bold;
         display: block;
         position: relative;
-        left: 38%;
+        left: 37%;
     }
 
    
@@ -1127,11 +1230,24 @@ footer nav h5:hover{
     text-align: center;
     border: none;
     
+    
     }
     
     .login nav span:hover {
         text-decoration: underline;
     }
+
+    
+.login nav span {
+    position: relative;
+    right: unset;
+    
+}
+
+.login nav a {
+    position: relative;
+    
+}
     
     
     
@@ -1225,7 +1341,7 @@ footer nav h5:hover{
     
    }
    footer img{
-    width: 26vw;
+    width: 30vw;
    }
     
     .newsletter {
@@ -1247,7 +1363,7 @@ footer nav h5:hover{
     }
     
     footer h2 {
-        font-size:large;
+        font-size:18;
         font-weight: lighter;
         text-align: center;
         
@@ -1256,18 +1372,31 @@ footer nav h5:hover{
         border-radius: 4px;
         padding: 10px 120px 10px 30px;
         
+        
     }
 
     footer form input:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100)
     }
+
+   .none{
+        font-size: 12px;
+   }
     
+    footer h4 {
+        font-size: 14px;
+        text-align: left;
+        font-weight: bold;
+    }
+
     footer h5 {
         color: #538d22;
+        font-size: 14px;
+        
     }
     
     .info {
-        padding: 30px 0;
+        padding: 40px 0;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1281,6 +1410,7 @@ footer nav h5:hover{
         position: relative;
         right:5px;
     }
+
      #imagenf {
         display: contents;
         width: 250px;
