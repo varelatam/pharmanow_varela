@@ -64,11 +64,18 @@ header input:hover {
 header .hamburguesa button{
     display: flex;
     position: relative;
+    left: 5px;
     width: 9vw;
-    top: 20px;
+    top: 22px;
     z-index: 1;
-}
 
+   
+}
+ 
+.hamburguesa img {
+    max-width: 24px;
+    
+}
 
 
 header ::placeholder {
@@ -93,10 +100,11 @@ header ::placeholder {
 
 .datos2 {
     display: flex;
-    position: relative;
-    left: 85vw;
-    bottom: 27.5vw;
+    position: absolute;
+    left: 93vw;
+    top: 24px;
     font-size: 21px;
+    z-index: 1;
 
 }
 
@@ -806,8 +814,6 @@ footer nav h5:hover{
         height: 15px;
     }
     
-
-    
    
     header .fa-solid {
         margin-right: 5px;
@@ -864,8 +870,8 @@ footer nav h5:hover{
     
     .datos2{
             position: relative;
-            left: 0;
-            bottom: 0;
+            left: 8px;
+            top: 0.5px;
             
     }
 
@@ -880,7 +886,7 @@ footer nav h5:hover{
         font-size: 15px;
         color: #495057;
         display: flex;
-        
+        margin-left: 4px;
     }
     
     /*main index*/
