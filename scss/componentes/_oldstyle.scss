@@ -1,0 +1,1001 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+#main1 a {
+    color: unset;
+    
+}
+
+a {
+    text-decoration: unset;
+
+}
+ #main1 footer ul {
+    padding-left: 0;
+ }
+
+ #main1 h2{
+    font-size: 20px;
+ }
+
+
+/*main index*/
+
+#index ul{
+    display: block
+    
+}
+
+
+.lista {
+    border: 2px solid #538d22;
+    padding: 23px;
+    margin-top: 33px;
+    margin-left: 5px;
+    margin-bottom: 33px;
+    background-color: #f4f3ee;
+    border-radius: 8px;
+    width: 85vw ;
+    font-weight: bold;
+    color: #538d22;
+    text-align: center;
+    
+    
+}
+
+.lista:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+
+
+.productos1 {
+    border: 2px solid #ff758f;
+    padding:  47px 0 47px;
+    margin-top: 33px;
+    margin-left: 5px;
+    margin-bottom: 33px;
+    background-color: #ff758f;
+    border-radius: 8px;
+    width: 85vw ;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+}
+
+.productos1:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+
+.productos2 {
+    border: 2px solid #00b4d8;
+    padding:  47px 0 47px;
+    margin-top: 33px;
+    margin-left: 5px;
+    margin-bottom: 33px;
+    background-color: #00b4d8;
+    border-radius: 8px;
+    width: 85vw  ;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.productos2:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+
+.productos3 {
+    border: 2px solid #858ae3;
+    padding:  47px 0 47px;
+    margin-top: 33px;
+    margin-left: 5px;
+    margin-bottom: 33px;
+    background-color: #858ae3;
+    border-radius: 8px;
+    width: 85vw  ;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.productos3:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+
+.productos4 {
+    border: 2px solid #c38e70;
+    padding:  47px 0 47px;
+    margin-top: 33px;
+    margin-left: 5px;
+    margin-bottom: 33px;
+    background-color: #c38e70;
+    border-radius: 8px;
+    width: 85vw  ;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.productos4:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+
+.imagen1 {
+    border-radius: 18px;
+    margin-top: 33px;
+    margin-left: 36px;
+    margin-bottom: 33px;
+    width: 85vw ;
+}
+
+.imagen1:hover {
+    box-shadow: 0px 0px 10px rgb(25, 159, 101)
+}
+
+.imagen2{
+    border-radius: 18px;
+    margin-top: 33px;
+    margin-left: 36px;
+    margin-bottom: 33px;
+    width: 85vw ;
+    
+}
+
+.imagen2:hover {
+    box-shadow: 0px 0px 10px rgb(25, 159, 101)
+}
+
+.imagen3 {
+    border-radius: 18px;
+    margin-top: 33px;
+    margin-left: 36px;
+    margin-bottom: 33px;
+    width: 85vw ;
+}
+
+.imagen3:hover {
+    box-shadow: 0px 0px 10px rgb(25, 159, 101)
+}
+
+#index section h2 {
+    font-weight: lighter;
+    
+}
+
+.oportunidades {
+
+    border: 2px solid #eae6e5;
+    background-color: #eae6e5;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+
+.articulo {
+
+    border: 1px solid #a5a5a5;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    width: 80vw;
+    transition: ease-in-out 0.1s;
+    
+}
+.articulo h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.oportunidades .articulo:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
+
+#index article button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #a5a5a5;
+    background-color: #538d22;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#index article button:hover {
+    text-decoration: underline;
+    transform: translate(-1px,-2px);
+    transition: ease-in-out 0.1s;
+}
+
+#index span {
+    text-decoration: line-through;
+    color: red;
+}
+
+
+
+.imagen4{
+    width: 30vw;
+}
+
+.imagen5{
+    width: 30vw;
+
+}
+
+.imagen6{
+    width: 30vw;
+}
+
+.oportunidades h2 {
+    border-bottom: 1px solid black;
+}
+
+.nuestras {
+    display: flex;                  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+}
+
+.marcas {
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 99vw;
+}
+
+
+/*main register*/
+
+.register h2 {
+    border-bottom:1px solid black;
+    border-top: 1px solid black;
+    padding: 60px 0 40px 18px;
+    font-size: large;
+    margin-top: 5px;
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.register form {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    
+ }
+
+.register section {
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+
+}
+
+
+.register label {
+
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.register fieldset {
+    border: white;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+
+#checkboxx {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    padding: 50px 0;
+}
+#checkboxx span {
+    margin-left:8px;
+    position: relative;
+    top: 5px;
+}
+
+.register input {
+
+    padding: 6px 10%;
+    margin-top: 12px;
+  
+    
+}
+
+.register input:hover {
+    box-shadow: 0px 0px 10px rgb(6, 185, 158)
+}
+
+.register button {
+
+    margin: 40px 0 0;
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: 1px solid #a5a5a5;
+    background-color: #538d22;
+    color: white;
+    font-weight: bold;
+    display: block;
+
+}
+
+.register button:hover {
+    transform: translate(-1px,-2px);
+    transition: ease-in-out 0.1s;
+}
+
+.register img {
+
+    width:100%;
+}
+
+/*main login*/
+
+
+.login img {
+
+    width:100%;
+    
+    }
+
+.login section {
+    width:50%;
+    align-items: center;
+    position: relative;
+    left:25%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    
+    
+    
+}
+.login h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.login form{
+   
+    text-align: center;
+    display: block;
+    
+
+}
+
+.login label {
+
+    display: block;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.login input {
+
+    padding: 6px 20%;
+    margin-top: 15px;
+    position: relative;
+    right: 15px;
+}
+
+.login input:hover {
+    box-shadow: 0px 0px 10px rgb(6, 185, 158)
+}
+
+.login button {
+
+    margin: 40px 0;
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: 1px solid #a5a5a5;
+    background-color: #538d22;
+    color: white;
+    font-weight: bold;    
+}
+
+.login button:hover{
+    
+    transform: translate(-1px,-2px);
+    transition: ease-in-out 0.1s;
+}
+
+.login nav {
+
+font-weight: bold;
+text-align: center;
+border: solid black 1px;
+padding: 35px 0;
+border-radius: 5px;
+
+}
+
+.login nav span {
+    position: relative;
+    right: 5px;
+}
+
+.login nav a {
+    position: relative;
+    right: 15px;
+}
+
+.login nav span:hover {
+    text-decoration: underline;
+}
+
+.login nav img {
+    width: 5vw;
+    margin-top: 5px;
+    
+}
+
+.login nav ul:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/*main contacto*/
+
+
+.contacto img {
+    width: 100%;
+}
+
+.contacto section {
+    width:100vw;
+    border:3px double black;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    
+    
+}
+.contacto h3 {
+    font-size: 22px;
+    word-spacing: 5px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+
+.contacto form{
+   
+    text-align: center;
+    display: block;
+
+}
+
+.contacto label {
+
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contacto input {
+
+    padding: 2.5px 25%;
+    margin-top: 15px;
+}
+
+.contacto input:hover{
+    box-shadow: 0px 0px 10px rgb(6, 185, 158)
+}
+
+.contacto button {
+    margin: 40px 0;
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: 1px solid #a5a5a5;
+    background-color: #538d22;
+    color: white;
+    font-weight: bold;
+    
+}
+.contacto button:hover {
+    transform: translate(-1px,-2px);
+    transition: ease-in-out 0.1s;
+}
+
+
+
+#consulta {
+    padding-bottom: 200px;
+}
+
+.datos .fa-bag-shopping {
+    display: contents;
+}
+
+/*main bolsa*/
+
+.shop {
+    border-top:solid #538d22 1px ;
+}
+
+.shop button {
+    background-color: #538d22 ;
+    color: white;
+
+}
+
+.shop button:hover{
+    transform: translate(-1px,-2px);
+    transition: ease-in-out 0.1s;
+    text-decoration: underline;
+    color: white;
+}
+
+
+@media screen and (min-width: 1200px){
+
+    /*main index*/
+    
+    
+    
+    .carrusel {
+        width: 98.9vw;
+    }
+    
+    #index ul{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    
+    
+    .lista {
+        border: 2px solid #538d22;
+        padding: 23px;
+        margin-top: 33px;
+        margin-left: 36px;
+        margin-bottom: 33px;
+        background-color: #f4f3ee;
+        border-radius: 8px;
+        width: 23vw ;
+        font-weight: bold;
+        color: #538d22;
+        text-align: center;
+    
+        
+    }
+    
+    
+    .productos1 {
+        border: 2px solid #ff758f;
+        padding:  47px 0 47px;
+        margin-top: 33px;
+        margin-left: 36px;
+        margin-bottom: 33px;
+        background-color: #ff758f;
+        border-radius: 8px;
+        width: 15% ;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    
+    }
+    
+    .productos2 {
+        border: 2px solid #00b4d8;
+        padding:  47px 0 47px;
+        margin-top: 33px;
+        margin-left: 36px;
+        margin-bottom: 33px;
+        background-color: #00b4d8;
+        border-radius: 8px;
+        width: 15% ;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+    
+    .productos3 {
+        border: 2px solid #858ae3;
+        padding:  47px 0 47px;
+        margin-top: 33px;
+        margin-left: 36px;
+        margin-bottom: 33px;
+        background-color: #858ae3;
+        border-radius: 8px;
+        width: 15% ;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+    
+    .productos4 {
+        border: 2px solid #c38e70;
+        padding:  47px 0 47px;
+        margin-top: 33px;
+        margin-left: 36px;
+        margin-bottom: 33px;
+        background-color: #c38e70;
+        border-radius: 8px;
+        width: 15% ;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+    
+    .imagen1 {
+        border-radius: 18px;
+        margin-top: 33px;
+        margin-left: 36px;
+        margin-bottom: 33px;
+        width: 43.5vw;
+        
+    }
+    
+    .imagen2{
+        border-radius: 18px;
+        margin-top: 33px;
+        margin-left: 36px;
+        margin-bottom: 33px;
+        width: 22vw;
+        
+    }
+    
+    .imagen3 {
+        border-radius: 18px;
+        margin-top: 33px;
+        margin-left: 36px;
+        margin-bottom: 33px;
+        width: 22vw;
+    }
+    
+    #index section h2 {
+        font-weight: lighter;
+        
+    }
+    
+    .oportunidades {
+    
+        border: 2px solid #eae6e5;
+        background-color: #eae6e5;
+        border-radius: 8px;
+        padding: 16px ;
+        text-align: center;
+    
+    }
+    
+    .articulo {
+    
+        border: 1px solid #a5a5a5;
+        border-radius: 5px;
+        background-color: white;
+        margin: 10px 0;
+        width:20vw;
+    }
+    
+    #index article button {
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #a5a5a5;
+        background-color: #538d22;
+        color: white;
+        font-weight: bold;
+    }
+    #index span {
+        text-decoration: line-through;
+        color: red;
+    }
+    
+    
+    
+    .imagen4{
+        width: 200px;
+    }
+    
+    .imagen5{
+        width: 200px;
+    
+    }
+    
+    .imagen6{
+        width: 200px;
+    }
+    
+    .oportunidades h2 {
+        border-bottom: 1px solid black;
+    }
+    
+    .nuestras {
+        display: flex;                  
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      
+    }
+    
+    .marcas {
+        border-bottom: 1px solid black;
+        text-align: center;
+        width: 99vw;
+    }
+    
+    
+    /*main register*/
+    
+    .register h2 {
+        border-bottom:1px solid black;
+        border-top: 1px solid black;
+        padding: 60px 0 40px 18px;
+        font-size: large;
+        margin-top: 5px;
+        
+    
+    }
+    
+    .register form {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        justify-content: space-evenly;
+        
+     }
+    
+    .register section {
+        margin-bottom: 80px;
+        padding-bottom: 20px;
+    
+    }
+    
+    
+    .register label {
+    
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    .register fieldset {
+        border: white;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 38vw;
+    }
+    
+    #checkboxx {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        padding: 50px 0;
+    }
+    #checkboxx span {
+        margin-left:8px;
+        position: relative;
+        top: 5px;
+    }
+    
+    .register input {
+    
+        padding: 6px 10%;
+        margin-top: 12px;
+      
+        
+    }
+    
+    .register button {
+    
+        margin: 40px 0 0;
+        padding: 10px 60px;
+        border-radius: 10px;
+        border: 1px solid #a5a5a5;
+        background-color: #538d22;
+        color: white;
+        font-weight: bold;
+        display: block;
+    
+    }
+    .register img {
+    
+        width:100%;
+    }
+    
+    /*main login*/
+    
+    
+    .login img {
+    
+        width:100%;
+        
+        }
+    
+    .login section {
+        width:50%;
+        border:3px double black;
+        border-radius: 5px;
+        align-items: center;
+        position: relative;
+        left:25%;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding-top: 30px;
+        padding-bottom: 100px;
+        
+    }
+
+    .login h2 {
+        font-weight: bold;
+        text-decoration: underline;
+        text-align: center;
+        font-size: 18px;
+        
+    }
+    
+    .login form{
+       
+        text-align: center;
+        display: block;
+        
+    
+    }
+    
+    .login label {
+    
+        display: block;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    
+    .login input {
+    
+        padding: 6px 20%;
+        margin-top: 15px;
+        position: relative;
+        left: 5px;
+    }
+
+   
+    .login button {
+    
+        margin: 40px 0;
+        padding: 10px 60px;
+        border-radius: 10px;
+        border: 1px solid #a5a5a5;
+        background-color: #538d22;
+        color: white;
+        font-weight: bold;
+        display: block;
+        position: relative;
+        left: 37%;
+    }
+
+   
+    
+    .login nav {
+    
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    
+    
+    }
+    
+    .login nav span:hover {
+        text-decoration: underline;
+    }
+
+    
+.login nav span {
+    position: relative;
+    right: unset;
+    
+}
+
+.login nav a {
+    position: relative;
+    
+}
+    
+    
+    
+    /*main contacto*/
+    
+    
+    .contacto img {
+        width: 100%;
+    }
+    
+    .contacto section {
+        width:50%;
+        border:3px double black;
+        border-radius: 5px;
+        align-items: center;
+        position: relative;
+        left:25%;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        
+        
+    }
+    .contacto h3 {
+        font-weight: lighter;
+        font-style: italic;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    
+    .contacto form{
+       
+        text-align: center;
+        display: block;
+        
+    
+    }
+    
+    .contacto label {
+    
+        display: block;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .contacto input {
+    
+        padding: 2.5px 25%;
+        margin-top: 15px;
+    }
+    
+    .contacto button {
+        margin: 40px 0;
+        padding: 10px 60px;
+        border-radius: 10px;
+        border: 1px solid #a5a5a5;
+        background-color: #538d22;
+        color: white;
+        font-weight: bold;
+        display: block;
+        position: relative;
+        left: 40%;
+    }
+    
+    
+    
+    #consulta {
+        padding-bottom: 200px;
+    }
+   
+}
