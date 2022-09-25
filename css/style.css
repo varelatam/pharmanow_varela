@@ -263,7 +263,7 @@ a {
   margin-top: 10px;
 }
 
-.register fieldset {
+.register div {
   border: white;
   padding-top: 30px;
   display: flex;
@@ -375,7 +375,7 @@ a {
   transition: ease-in-out 0.1s;
 }
 
-.login nav {
+.login article {
   font-weight: bold;
   text-align: center;
   border: solid black 1px;
@@ -383,26 +383,26 @@ a {
   border-radius: 5px;
 }
 
-.login nav span {
+.login article span {
   position: relative;
   right: 5px;
 }
 
-.login nav a {
+.login article a {
   position: relative;
   right: 15px;
 }
 
-.login nav span:hover {
+.login article span:hover {
   text-decoration: underline;
 }
 
-.login nav img {
+.login article img {
   width: 5vw;
   margin-top: 5px;
 }
 
-.login nav ul:hover {
+.login article ul:hover {
   text-decoration: underline;
 }
 
@@ -663,7 +663,7 @@ a {
     font-weight: bold;
     margin-top: 10px;
   }
-  .register fieldset {
+  .register div {
     border: white;
     padding-top: 30px;
     display: flex;
@@ -749,19 +749,19 @@ a {
     position: relative;
     left: 37%;
   }
-  .login nav {
+  .login article {
     font-weight: bold;
     text-align: center;
     border: none;
   }
-  .login nav span:hover {
+  .login article span:hover {
     text-decoration: underline;
   }
-  .login nav span {
+  .login article span {
     position: relative;
     right: unset;
   }
-  .login nav a {
+  .login article a {
     position: relative;
   }
   /*main contacto*/
@@ -840,7 +840,8 @@ header form {
 }
 header form input {
   border-radius: 4px;
-  padding: 10px 120px 10px 30px;
+  padding: 10px 0;
+  width: 70vw;
 }
 header form input:hover {
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -853,7 +854,7 @@ header .datos2 {
   position: absolute;
   left: 93vw;
   top: 24px;
-  font-size: 21px;
+  font-size: 24px;
   z-index: 1;
 }
 header .datos2 span {
@@ -877,12 +878,12 @@ header .hamburguesa button {
   display: flex;
   position: relative;
   left: 5px;
-  width: 9vw;
+  width: 55px;
   top: 22px;
   z-index: 1;
 }
 header .hamburguesa img {
-  max-width: 24px;
+  width: 24px;
 }
 header .datos1 {
   display: none;
@@ -903,59 +904,40 @@ header .cuenta {
   }
   header form {
     width: 30vw;
+    height: 65px;
     position: relative;
     right: 18vw;
   }
   header form input {
-    border-radius: 4px;
-    padding: 10px 120px 10px 30px;
     margin-top: 28px;
+    border-radius: 4px;
+    width: 25vw;
   }
   header form .fa-magnifying-glass {
     position: relative;
     top: 40px;
   }
-  nav .secciones {
-    margin-left: 20px;
-    width: 95vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 0;
-  }
-  nav .secciones li {
-    display: contents;
-    font-size: 14px;
-    font-weight: bold;
-  }
-  nav .secciones li:hover {
-    color: #538d22;
-    text-decoration-line: overline;
-  }
-  .misdatos {
+  header section .datos {
     position: relative;
     right: 5%;
     top: 40px;
-    display: flex;
-    height: 15px;
-  }
-  .misdatos .datos {
     font-weight: lighter;
     font-size: 15px;
     color: #495057;
     display: flex;
   }
-  .misdatos .datos .fa-user {
+  header section .datos .fa-user {
     display: contents;
     position: relative;
     font-size: 21px;
   }
-  .misdatos .datos .datos2 {
+  header section .datos .datos2 {
     position: relative;
     left: 8px;
     top: 0.5px;
+    font-size: 20px;
   }
-  .misdatos .datos .datos2 span {
+  header section .datos .datos2 span {
     display: contents;
     font-weight: lighter;
     font-size: 15px;
@@ -963,23 +945,40 @@ header .cuenta {
     display: flex;
     margin-left: 4px;
   }
-  .misdatos .datos a {
+  header section .datos a {
     display: flex;
   }
-  .misdatos .datos li {
+  header section .datos li {
     display: flex;
     margin-right: 10px;
   }
-  .misdatos .datos li:hover {
+  header section .datos li:hover {
     text-decoration: underline;
   }
-  .fa-bars {
+  header section nav .secciones {
+    margin-left: 20px;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+  header section nav .secciones li {
+    display: contents;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  header section nav .secciones li:hover {
+    color: #538d22;
+    text-decoration-line: overline;
+  }
+  header .fa-bars {
     display: none;
   }
-  .hamburguesa {
+  header .hamburguesa {
     display: none;
   }
-  .fa-user {
+  header .fa-user {
     display: contents;
     position: relative;
     font-size: 21px;
@@ -1034,7 +1033,8 @@ footer .newsletter form .fa-hand-pointer {
 }
 footer .newsletter form input {
   border-radius: 4px;
-  padding: 10px 120px 10px 30px;
+  padding: 10px;
+  width: 70vw;
 }
 footer .newsletter form input:hover {
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -1043,7 +1043,6 @@ footer .none {
   display: block;
   text-align: justify;
   display: none;
-  margin-top: 8px;
 }
 footer .none h4 {
   margin-bottom: 8px;
@@ -1096,9 +1095,12 @@ footer .none .si h4 {
     justify-content: space-evenly;
     align-items: center;
   }
-  footer .newsletter nav form .fa-hand-pointer {
+  footer .newsletter form .fa-hand-pointer {
     position: relative;
     right: 27px;
+  }
+  footer .newsletter form input {
+    width: 25vw;
   }
   footer .info {
     padding: 40px 0;

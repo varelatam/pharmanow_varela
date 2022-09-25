@@ -292,7 +292,7 @@ a {
     margin-top: 10px;
 }
 
-.register fieldset {
+.register div {
     border: white;
     padding-top: 30px;
     display: flex;
@@ -423,7 +423,7 @@ a {
     transition: ease-in-out 0.1s;
 }
 
-.login nav {
+.login article {
 
 font-weight: bold;
 text-align: center;
@@ -433,27 +433,27 @@ border-radius: 5px;
 
 }
 
-.login nav span {
+.login article span {
     position: relative;
     right: 5px;
 }
 
-.login nav a {
+.login article a {
     position: relative;
     right: 15px;
 }
 
-.login nav span:hover {
+.login article span:hover {
     text-decoration: underline;
 }
 
-.login nav img {
+.login article img {
     width: 5vw;
     margin-top: 5px;
     
 }
 
-.login nav ul:hover {
+.login article ul:hover {
     text-decoration: underline;
 }
 
@@ -762,7 +762,6 @@ border-radius: 5px;
     }
     
     .register form {
-    
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -784,7 +783,7 @@ border-radius: 5px;
         margin-top: 10px;
     }
     
-    .register fieldset {
+    .register div {
         border: white;
         padding-top: 30px;
         display: flex;
@@ -810,7 +809,6 @@ border-radius: 5px;
     
         padding: 6px 10%;
         margin-top: 12px;
-      
         
     }
     
@@ -902,7 +900,7 @@ border-radius: 5px;
 
    
     
-    .login nav {
+    .login article {
     
     font-weight: bold;
     text-align: center;
@@ -911,18 +909,18 @@ border-radius: 5px;
     
     }
     
-    .login nav span:hover {
+    .login article span:hover {
         text-decoration: underline;
     }
 
     
-.login nav span {
+.login article span {
     position: relative;
     right: unset;
     
 }
 
-.login nav a {
+.login article a {
     position: relative;
     
 }

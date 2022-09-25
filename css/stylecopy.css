@@ -807,9 +807,7 @@ footer nav h5:hover{
     }
     
     .misdatos{
-        position: relative;
-        right: 5%;
-        top: 40px;
+        
         display: flex;
         height: 15px;
     }
