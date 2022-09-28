@@ -94,131 +94,121 @@ header{
     
     .cuenta {
             color:nth($colores, $n: 1);
-        }
-}
-
-
-
-
-
-@media screen and (min-width: 1200px){
-    header{  
+        }@media screen and (min-width: 1200px){ 
         
-        picture{
-            width: 17vw;
-            a{
-                img{
-                    width: 17vw;
+            picture{
+                width: 17vw;
+                a{
+                    img{
+                        width: 17vw;
+                    }
                 }
-            }
-        } 
-        form {
-            width: 30vw ;
-            height: 65px;
-            position: relative;
-            right: 18vw ;
-            input{
-                margin-top: 28px;
-                border-radius: 4px;
-                width: 25vw;
-            }
-            .fa-magnifying-glass{
+            } 
+            form {
+                width: 30vw ;
+                height: 65px;
                 position: relative;
-                top: 40px;
-            }    
+                right: 18vw ;
+                input{
+                    margin-top: 28px;
+                    border-radius: 4px;
+                    width: 25vw;
+                }
+                .fa-magnifying-glass{
+                    position: relative;
+                    top: 40px;
+                }    
+                
+            }
+        
+            section{
+                .datos { 
+                    position: relative;
+                    right: 5%;
+                    top: 40px;     
+                    font-weight:lighter;
+                    font-size: 15px;
+                    color: nth($colores, $n: 3);
+                    display: flex;
+                    .fa-user {
+                        display: contents;
+                        position: relative;
+                        font-size: 21px;
+                    }
+                    .datos2{
+                        position: relative;
+                        left: 8px;
+                        top: 0.5px;
+                        font-size: 20px;
+                        span{
+                            display: contents;
+                            font-weight:lighter;
+                            font-size: 15px;
+                            color: nth($colores, $n: 3);
+                            display: flex;
+                            margin-left: 4px; 
+                        }    
+                    }
+                    a{
+                        display: flex;
+                    }
+                    li{
+                        display: flex;
+                        margin-right: 10px;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                    
+                }
             
-        }
+                nav{
+            
+                
+                    .secciones{
+                        margin-left: 20px;
+                        width: 95vw;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        margin-bottom: 0;
+                
+                        li {
+                            display: contents;
+                            font-size: 14px;
+                            font-weight:bold;
+                            &:hover {
+                                color: nth($colores, $n: 1);
+                                text-decoration-line: overline;}
+                        }
+                    }
+                
+                
+                    
+                
+                    }
     
-        section{
-            .datos { 
-                position: relative;
-                right: 5%;
-                top: 40px;     
-                font-weight:lighter;
-                font-size: 15px;
-                color: nth($colores, $n: 3);
-                display: flex;
-                .fa-user {
+                }
+            
+            .fa-bars {
+                    display: none;
+                }    
+            
+            
+            
+            .hamburguesa {
+                    display: none;
+                }    
+            
+            .fa-user {
                     display: contents;
                     position: relative;
                     font-size: 21px;
                 }
-                .datos2{
-                    position: relative;
-                    left: 8px;
-                    top: 0.5px;
-                    font-size: 20px;
-                    span{
-                        display: contents;
-                        font-weight:lighter;
-                        font-size: 15px;
-                        color: nth($colores, $n: 3);
-                        display: flex;
-                        margin-left: 4px; 
-                    }    
-                }
-                a{
-                    display: flex;
-                }
-                li{
-                    display: flex;
-                    margin-right: 10px;
-                    &:hover{
-                        text-decoration: underline;
-                    }
-                }
-                
-            }
-        
-            nav{
-        
             
-                .secciones{
-                    margin-left: 20px;
-                    width: 95vw;
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                    margin-bottom: 0;
-            
-                    li {
-                        display: contents;
-                        font-size: 14px;
-                        font-weight:bold;
-                        &:hover {
-                            color: nth($colores, $n: 1);
-                            text-decoration-line: overline;}
-                    }
-                }
-            
-            
-                
-            
-                }
-
-            }
-        
-        .fa-bars {
-                display: none;
-            }    
-        
-        
-        
-        .hamburguesa {
-                display: none;
-            }    
-        
-        .fa-user {
-                display: contents;
-                position: relative;
-                font-size: 21px;
-            }
-        
-          
-    }
+              
+        }
 }
-    
-    
 
 
 

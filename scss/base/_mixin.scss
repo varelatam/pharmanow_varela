@@ -1,0 +1,26 @@
+$size:18px;
+
+@mixin ofertas ($size) {
+    border-radius: $size;
+    margin-top: $size+15;
+    margin-left: $size*2;
+    margin-bottom: $size+15;
+    width: 85vw;
+    &:hover{
+        box-shadow: 0px 0px 10px rgb(25, 159, 101);
+    }
+}
+
+.imagen1 {
+    @include ofertas($size);
+}
+.imagen2 {
+    @include ofertas($size);
+}
+.imagen3 {
+    @include ofertas($size);
+}
+
+
+
+
