@@ -1,0 +1,112 @@
+ #cuidado {
+
+    h1{
+        display: none;
+    }  
+    
+     picture {  
+        width: 100vw;     
+        display: flex;
+        justify-content: center;
+        
+        .movil{
+            display: block;
+            width: 80vw;
+            
+        }
+    } 
+    
+    .filtros{
+        margin-left: 10px;
+    
+        article {
+
+            margin-bottom: 10px;
+
+            h6{
+                font-weight: bold;
+            }
+
+            ul{
+                padding: 0;
+
+                li{
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+                    
+            }
+            div{
+                input{
+                    &:checked{
+                        background-color: nth($colores, $n: 1);
+                    }
+                    
+                }
+            }
+
+
+        }
+    }
+       
+
+    section{
+        
+        .card{
+            margin-left: 10px;
+            margin-bottom: 20px;
+            .btn{
+                    background-color: nth($colores, $n: 1) ;
+                    color: white;
+                
+                 &:hover{
+                    transform: translate(-1px,-2px);
+                    transition: ease-in-out 0.1s;
+                    text-decoration: underline;
+                    color: white;
+                }
+                
+            }
+
+            .card-title{
+                font-size:medium;
+                font-weight: 800;
+            }
+            .precio {
+                font-weight:600;
+            }
+            img{
+                width: 10vw;
+                margin-left: 40px;
+            }
+        }
+
+    }       
+
+    
+        
+    @media screen and (min-width: 1200px) {
+
+        display: flex;
+        flex-wrap: wrap;
+
+        picture {
+            
+            .movil{
+                width: 60vw;
+             
+            }
+        }
+
+        .filtros{
+            display: flex;
+            flex-direction: column;
+               
+            }
+
+
+    }   
+       
+    }
+    

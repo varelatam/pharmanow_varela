@@ -1,0 +1,273 @@
+#index {
+    display: block;
+
+    h1{
+        display: none;
+    }    
+
+    section{
+        ul{
+            .lista {
+                border: map-get($map: $mainIndex, $key: bordes );
+                padding: 23px;
+                margin-top: 33px;
+                margin-left: 5px;
+                margin-bottom: 33px;
+                background-color: #f4f3ee;
+                border-radius: 8px;
+                width: 85vw ;
+                text-align: center;
+                color: map-get($map: $mainIndex, $key: color);
+                font-weight: map-get($map: $mainIndex, $key: fuente);  
+                
+                &:hover{
+                    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+                }
+            } 
+        }
+    }
+    .oportunidades{
+        border: 2px solid #eae6e5;
+        background-color: #eae6e5;
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+
+        h2{
+            font-weight: lighter;
+            border-bottom: 1px solid black;
+        }
+
+        ul{
+            
+            .articulo{
+                border: 1px solid nth($colores, $n: 4);
+                border-radius: 5px;
+                background-color: white;
+                margin: 10px;
+                width: 80vw;
+                transition: ease-in-out 0.1s;
+
+                article{
+                    h4{
+                        font-size: 16px;
+                        font-weight: bold;
+                    }
+
+                    p{
+                        span {
+                            text-decoration: line-through;
+                            color: red;
+                        }
+                    }
+
+                    button{
+                        margin: 10px 0;
+                        padding: 10px;
+                        border-radius: 5px;
+                        border: 1px solid nth($colores, $n: 4);
+                        background-color: nth($colores, $n: 1);
+                        color: white;
+                        font-weight: bold;
+
+                        &:hover{
+                            text-decoration: underline;
+                            transform: translate(-1px,-2px);
+                            transition: ease-in-out 0.1s;
+                        }
+                    }
+                }
+
+                &:hover{
+                    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+
+                }
+
+            }
+            
+        }
+    
+    }
+
+    .nuestras{
+
+        display: flex;                  
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        .marcas{
+            border-bottom: 1px solid black;
+            text-align: center;
+            width: 99vw;
+
+        }
+
+        picture{
+
+            .imagen4{
+                width: 30vw;
+            }
+            
+            .imagen5{
+                width: 30vw;
+            
+            }
+            
+            .imagen6{
+                width: 30vw;
+            }            
+
+        }
+    }
+
+    @media screen and (min-width: 1200px){
+
+    .carrusel {
+        width: 98.9vw;
+    }
+    
+    section{
+
+        ul{
+            display: flex;
+            justify-content: space-evenly; 
+
+            .lista{
+                margin-left: 36px;
+                 width: 23vw ;
+
+            }
+        }
+
+        nav{
+            ul{
+                
+                .productos1 {
+                    border: 2px solid #ff758f;
+                    padding:  47px 0 47px;
+                    margin-top: 33px;
+                    margin-left: 36px;
+                    margin-bottom: 33px;
+                    background-color: #ff758f;
+                    border-radius: 8px;
+                    width: 15% ;
+                    font-weight: bold;
+                    color: white;
+                    text-align: center;
+                
+                }
+                
+                .productos2 {
+                    border: 2px solid #00b4d8;
+                    padding:  47px 0 47px;
+                    margin-top: 33px;
+                    margin-left: 36px;
+                    margin-bottom: 33px;
+                    background-color: #00b4d8;
+                    border-radius: 8px;
+                    width: 15% ;
+                    font-weight: bold;
+                    color: white;
+                    text-align: center;
+                }
+                
+                .productos3 {
+                    border: 2px solid #858ae3;
+                    padding:  47px 0 47px;
+                    margin-top: 33px;
+                    margin-left: 36px;
+                    margin-bottom: 33px;
+                    background-color: #858ae3;
+                    border-radius: 8px;
+                    width: 15% ;
+                    font-weight: bold;
+                    color: white;
+                    text-align: center;
+                }
+                
+                .productos4 {
+                    border: 2px solid #c38e70;
+                    padding:  47px 0 47px;
+                    margin-top: 33px;
+                    margin-left: 36px;
+                    margin-bottom: 33px;
+                    background-color: #c38e70;
+                    border-radius: 8px;
+                    width: 15% ;
+                    font-weight: bold;
+                    color: white;
+                    text-align: center;
+                }
+                
+            }
+
+        }
+
+        picture{
+
+            .imagen1 {
+                border-radius: 18px;
+                margin-top: 33px;
+                margin-left: 36px;
+                margin-bottom: 33px;
+                width: 43.5vw;
+                
+            }
+            
+            .imagen2{
+                border-radius: 18px;
+                margin-top: 33px;
+                margin-left: 36px;
+                margin-bottom: 33px;
+                width: 22vw;
+                
+            }
+            
+            .imagen3 {
+                border-radius: 18px;
+                margin-top: 33px;
+                margin-left: 36px;
+                margin-bottom: 33px;
+                width: 22vw;
+            }
+
+        }
+    }
+
+    .oportunidades{
+        padding: 16px ;
+
+        ul{
+            .articulo {
+                margin: 10px 0;
+                width:20vw;
+            } 
+        }
+
+    }
+
+    .nuestras{
+
+        picture{
+          
+            .imagen4{
+                width: 200px;
+            }
+            
+            .imagen5{
+                width: 200px;
+            
+            }
+            
+            .imagen6{
+                width: 200px;
+            }
+                
+
+        }
+    }
+
+    }
+}
+
+

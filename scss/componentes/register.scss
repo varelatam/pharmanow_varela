@@ -1,0 +1,117 @@
+#main1{
+    .register {
+        section {
+            margin-bottom: 80px;
+            padding-bottom: 20px;
+
+            h1 {
+                border-bottom:1px solid black;
+                border-top: 1px solid black;
+                padding: 60px 0 40px 18px;
+                font-size: large;
+                margin-top: 5px;
+                background: #a8ff78;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+            
+            }
+            form {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-top: 5%;
+                justify-content: space-evenly;
+
+                button {
+                    margin: 40px 0 0;
+                    padding: 10px 60px;
+                    border-radius: 10px;
+                    border: 1px solid nth($colores, $n: 4);
+                    background-color: nth($colores, $n: 1);
+                    color: white;
+                    font-weight: bold;
+                    display: block;
+
+                    &:hover{
+                        transform: translate(-1px,-2px);
+                        transition: ease-in-out 0.1s;
+                    }
+                
+                }
+
+                div {
+                    border: white;
+                    padding-top: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    width: 70vw;
+
+                    label {       
+                        font-weight: bold;
+                        margin-top: 10px;
+                    }
+                    input {
+                        padding: 6px 10%;
+                        margin-top: 12px;
+                        
+                        &:hover{
+                            box-shadow: 0px 0px 10px rgb(6, 185, 158);
+                            color:nth($colores, $n: 1);
+                            
+                        }
+                    
+                    } 
+                      
+                    
+                }
+
+                #checkboxx {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    width: 90vw;
+                    padding: 50px 0;
+
+                         span {
+                    margin-left:8px;
+                    position: relative;
+                    top: 5px;
+
+                    
+                }   
+
+            
+                }
+             }  
+            
+        }
+
+     img {     
+        width:100%;
+      }
+        @media screen and (min-width: 1200px){
+
+           section{
+
+            form {
+
+                div {
+                    width: 38vw;
+
+                 input{
+                    padding: 6px 10%;
+                    margin-top: 12px;
+                  
+                 }
+                 
+                }
+
+                }       
+           }           
+           
+        }
+    
+    }
+
+}

@@ -15,3 +15,5 @@ Register: “Registrate y accede a los mejores descuentos en farmacia, productos
 
 Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a las páginas de mi sitio: "Pharmanow,farmacia,farmacia online,comprar online,envios,envios gratis, maquillajes, cosmetica, remedios, cuidado personal, belleza, envios rapidos, promociones, beneficios, cuotas sin interes, descuentos, retiro en sucursales, compra digital"
 Según la página en la que se encuentre, algunas de ellas varían en relación al contenido, pero las principales continúan.
+
+Imágnes: Se incorporaron en cada html textos alternativos en la imágenes para darle un mayor acceso a los usuarios.

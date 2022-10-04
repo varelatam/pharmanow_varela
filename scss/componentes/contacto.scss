@@ -1,0 +1,103 @@
+.contacto{
+        h1{
+            display: none;
+
+        }     
+        picture{
+
+            img{
+                width: 100%;
+
+            }
+        }
+
+        section{
+            width:100vw;
+            border: none;
+            align-items: center;
+            position: relative;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            padding-top: 30px;
+            padding-bottom: 40px;
+            
+            h3{
+                font-size: 22px;
+                word-spacing: 5px;
+                font-weight: lighter;
+                font-style: italic;
+                text-align: center;
+                margin-bottom: 60px;
+            }
+
+            form{
+                text-align: center;
+                display: block;
+
+                label{
+                    display: block;
+                    font-weight: bold;
+                    margin-top: 20px;
+
+                }
+
+                input{
+                    padding: 2.5px 25%;
+                    margin-top: 15px;
+
+                    &:hover{
+                        box-shadow: 0px 0px 10px rgb(6, 185, 158)
+                    }
+                }
+
+                #consulta {
+                    padding-bottom: 200px;
+                }
+
+                button{
+                    margin: 40px 0;
+                    padding: 10px 60px;
+                    border-radius: 10px;
+                    border: 1px solid nth($colores, $n: 4);
+                    background-color: nth($colores, $n: 1);
+                    color: white;
+                    font-weight: bold;
+
+                    &:hover{
+                        transform: translate(-1px,-2px);
+                        transition: ease-in-out 0.1s; 
+                    }
+                }
+            }
+        }
+
+        @media screen and (min-width: 1200px){
+
+            section{
+                border:3px double black;
+                border-radius: 5px;
+                
+                width:50%;
+                position: relative;
+                left:25%;
+                margin-top: 80px;
+                margin-bottom: 80px; 
+
+                h3 {
+                    font-weight: lighter;
+                    font-size: 20px;
+                    
+                }
+            }
+
+            form{
+                button {
+    
+                    display: block;
+                    position: relative;
+                    left: 40%;
+                }
+            }
+        }    
+}
+

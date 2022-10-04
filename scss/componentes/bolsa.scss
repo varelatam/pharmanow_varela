@@ -1,0 +1,25 @@
+
+.shop {
+    border-top:solid nth($colores, $n: 1) 1px;
+
+    h1{
+        font-size: 23px;
+    }
+    h5 {
+        font-size: 23px;
+    }
+
+    button {
+    background-color: nth($colores, $n: 1) ;
+    color: white;
+
+        &:hover {
+            transform: translate(-1px,-2px);
+            transition: ease-in-out 0.1s;
+            text-decoration: underline;
+            color: white;    
+        }
+       
+}
+
+}

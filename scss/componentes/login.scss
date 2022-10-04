@@ -1,0 +1,176 @@
+
+.login {
+
+    picture
+        img {
+            width:100%;
+        
+            }
+    section{
+        width:50%;
+        align-items: center;
+        position: relative;
+        left:25%;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        padding-top: 30px;
+        padding-bottom: 100px;
+     
+        h1 {
+            font-weight: bold;
+            text-decoration: underline;
+            text-align: center;
+            font-size: 18px;
+            
+        }    
+
+        form{
+   
+            text-align: center;
+            display: block;
+        
+            label {
+
+                display: block;
+                font-weight: bold;
+                margin-top: 50px;
+            }    
+
+            input {
+
+                padding: 6px 20%;
+                margin-top: 15px;
+                position: relative;
+                right: 15px;
+
+                &:hover{
+
+                    box-shadow: 0px 0px 10px rgb(6, 185, 158)
+
+                }    
+
+            }
+
+            button {
+
+                margin: 40px 0;
+                padding: 10px 60px;
+                border-radius: 10px;
+                border: 1px solid nth($colores, $n: 4);
+                background-color: nth($colores, $n: 1);
+                color: white;
+                font-weight: bold;  
+                
+                &:hover{
+                        transform: translate(-1px,-2px);
+                        transition: ease-in-out 0.1s;
+                }
+
+            }
+        
+        }
+        
+        article{
+            font-weight: bold;
+            text-align: center;
+            border: solid black 1px;
+            padding: 35px 0;
+            border-radius: 5px;  
+            
+            ul{
+
+                li{
+                    span{
+                        position: relative;
+                        right: 5px;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                    a {
+                        position: relative;
+                        right: 15px;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                    }
+
+                }
+                &:hover{
+                    text-decoration: underline;
+                }
+                
+
+            }
+
+            picture{
+    
+                img{
+                    width: 5vw;
+                    margin-top: 5px;
+                        
+                }
+            }
+            
+
+        }
+
+    }            
+        
+    @media screen and (min-width: 1200px){
+
+        section{
+            border:3px double black;
+            border-radius: 5px;
+            margin-bottom: 80px;
+
+            form{
+
+                input{
+                    position: relative;
+                    left: 5px;  
+
+                }
+
+                button{
+
+                    display: block;
+                    position: relative;
+                    left: 37%;
+
+                }
+
+            }
+            article {
+
+                border: none;
+                
+                ul{
+                    li{
+                        span {
+                            position: relative;
+                            right: unset;
+                            
+                            } 
+
+                        a {
+                            position: relative;
+                                
+                            }    
+                    }
+                }
+                
+                }
+        }    
+
+    }
+}
+
+
+
+
+
+
+
+
+
