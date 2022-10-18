@@ -4,14 +4,15 @@
         display: none;
     }  
     
-     picture {  
+    picture {  
         width: 100vw;     
         display: flex;
         justify-content: center;
         
         .movil{
             display: block;
-            width: 80vw;
+            width: 95vw;
+            
             
         }
     } 
@@ -77,8 +78,8 @@
                 font-weight:600;
             }
             img{
-                width: 10vw;
-                margin-left: 40px;
+                width: 35vw;
+                margin-left: 30px;
             }
         }
 
@@ -104,7 +105,17 @@
             flex-direction: column;
                
             }
+        
+            
+        section{
 
+            .card{
+
+                img{
+                    width: 10vw;
+                }
+            }
+        }    
 
     }   
        

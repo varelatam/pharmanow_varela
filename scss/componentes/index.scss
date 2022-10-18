@@ -3,7 +3,18 @@
 
     h1{
         display: none;
-    }    
+    } 
+    
+    .carruselmobile{
+        
+
+    }
+
+    .carruseldesktop{
+
+        display: none;
+
+    }
 
     section{
         ul{
@@ -122,8 +133,17 @@
 
     @media screen and (min-width: 1200px){
 
-    .carrusel {
-        width: 98.9vw;
+    .carruseldesktop {
+
+        display: contents;
+
+       
+        
+    }
+
+    .carruselmobile{
+        display: none;
+
     }
     
     section{

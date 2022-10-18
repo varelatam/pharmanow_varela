@@ -87,9 +87,21 @@
             
         }
 
-     img {     
-        width:100%;
-      }
+        .registromobile{   
+            img{
+                width:99vw; 
+            }  
+        }
+            
+        .registrodesktop{
+            display: none;
+
+            img{
+                width:99vw;
+            } 
+
+     }   
+      
         @media screen and (min-width: 1200px){
 
            section{
@@ -108,8 +120,17 @@
                 }
 
                 }       
-           }           
-           
+           }  
+
+           .registromobile{
+            display: none;
+
+           }
+
+           .registrodesktop{
+            display:contents;
+           }
+
         }
     
     }

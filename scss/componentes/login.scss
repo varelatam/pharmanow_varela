@@ -1,11 +1,27 @@
 
 .login {
 
-    picture
-        img {
-            width:100%;
-        
-            }
+
+    .registrodesktop {
+
+        display: none;
+
+        img{
+            width: 99vw;
+
+        }
+
+        }
+
+    .registromobile{
+
+        img{
+            width:99vw;
+
+        }
+         
+        }   
+
     section{
         width:50%;
         align-items: center;
@@ -118,6 +134,22 @@
     }            
         
     @media screen and (min-width: 1200px){
+
+        
+
+        .registromobile{
+
+            display: none
+            
+        }
+
+        .registrodesktop{
+
+            display:contents
+
+        }
+
+        
 
         section{
             border:3px double black;

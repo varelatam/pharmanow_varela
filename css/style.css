@@ -391,6 +391,9 @@ footer .si h4 {
 #index h1 {
   display: none;
 }
+#index .carruseldesktop {
+  display: none;
+}
 #index section ul .lista {
   border: 2px solid #538d22;
   padding: 23px;
@@ -471,8 +474,11 @@ footer .si h4 {
   width: 30vw;
 }
 @media screen and (min-width: 1200px) {
-  #index .carrusel {
-    width: 98.9vw;
+  #index .carruseldesktop {
+    display: contents;
+  }
+  #index .carruselmobile {
+    display: none;
   }
   #index section ul {
     display: flex;
@@ -573,8 +579,14 @@ footer .si h4 {
   }
 }
 
-.login picture img {
-  width: 100%;
+.login .registrodesktop {
+  display: none;
+}
+.login .registrodesktop img {
+  width: 99vw;
+}
+.login .registromobile img {
+  width: 99vw;
 }
 .login section {
   width: 50%;
@@ -652,6 +664,12 @@ footer .si h4 {
   margin-top: 5px;
 }
 @media screen and (min-width: 1200px) {
+  .login .registromobile {
+    display: none;
+  }
+  .login .registrodesktop {
+    display: contents;
+  }
   .login section {
     border: 3px double black;
     border-radius: 5px;
@@ -745,8 +763,14 @@ footer .si h4 {
   position: relative;
   top: 5px;
 }
-#main1 .register img {
-  width: 100%;
+#main1 .register .registromobile img {
+  width: 99vw;
+}
+#main1 .register .registrodesktop {
+  display: none;
+}
+#main1 .register .registrodesktop img {
+  width: 99vw;
 }
 @media screen and (min-width: 1200px) {
   #main1 .register section form div {
@@ -756,13 +780,25 @@ footer .si h4 {
     padding: 6px 10%;
     margin-top: 12px;
   }
+  #main1 .register .registromobile {
+    display: none;
+  }
+  #main1 .register .registrodesktop {
+    display: contents;
+  }
 }
 
 .contacto h1 {
   display: none;
 }
-.contacto picture img {
-  width: 100%;
+.contacto .contactodesktop {
+  display: none;
+}
+.contacto .contactodesktop img {
+  width: 100vw;
+}
+.contacto .contactomobile img {
+  width: 100vw;
 }
 .contacto section {
   width: 100vw;
@@ -815,6 +851,12 @@ footer .si h4 {
   transition: ease-in-out 0.1s;
 }
 @media screen and (min-width: 1200px) {
+  .contacto .contactodesktop {
+    display: contents;
+  }
+  .contacto .contactomobile {
+    display: none;
+  }
   .contacto section {
     border: 3px double black;
     border-radius: 5px;
@@ -865,7 +907,7 @@ footer .si h4 {
 }
 #cuidado picture .movil {
   display: block;
-  width: 80vw;
+  width: 95vw;
 }
 #cuidado .filtros {
   margin-left: 10px;
@@ -907,8 +949,8 @@ footer .si h4 {
   font-weight: 600;
 }
 #cuidado section .card img {
-  width: 10vw;
-  margin-left: 40px;
+  width: 35vw;
+  margin-left: 30px;
 }
 @media screen and (min-width: 1200px) {
   #cuidado {
@@ -921,6 +963,9 @@ footer .si h4 {
   #cuidado .filtros {
     display: flex;
     flex-direction: column;
+  }
+  #cuidado section .card img {
+    width: 10vw;
   }
 }
 

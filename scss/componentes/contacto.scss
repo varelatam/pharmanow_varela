@@ -3,10 +3,19 @@
             display: none;
 
         }     
-        picture{
+        .contactodesktop{
+            display: none;
 
             img{
-                width: 100%;
+                width: 100vw;
+
+            }
+        }
+
+        .contactomobile{
+
+            img{
+                width: 100vw;
 
             }
         }
@@ -72,11 +81,18 @@
         }
 
         @media screen and (min-width: 1200px){
+            
+            .contactodesktop{
+                display: contents;
+            }
 
+            .contactomobile{
+                display:none;
+            }
+            
             section{
                 border:3px double black;
                 border-radius: 5px;
-                
                 width:50%;
                 position: relative;
                 left:25%;
