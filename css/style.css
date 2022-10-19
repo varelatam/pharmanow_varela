@@ -428,6 +428,7 @@ footer .si h4 {
   margin: 10px;
   width: 80vw;
   transition: ease-in-out 0.1s;
+  margin-left: 5px;
 }
 #index .oportunidades ul .articulo article h4 {
   font-size: 16px;
